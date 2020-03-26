@@ -1,6 +1,6 @@
 {
   "name": "@fictivekin/eslint-config-fk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fictive Kin sharable eslint configuration",
   "license": "MIT",
   "main": "index.js",
