@@ -5,6 +5,7 @@ module.exports = {
     "ecmaVersion": 7,
     "sourceType": "module"
   },
+  "ignorePatterns": ["**/*.bundle.js", "**/*.min.js", "node_modules/"],
   "rules": {
     "require-jsdoc": [
       "error",
