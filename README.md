@@ -13,6 +13,6 @@ In your package.json file, add:
 
 ```
 "eslintConfig": {
-    "extends": "eslint-config-fk"
+    "extends": "@fictivekin/eslint-config-fk"
 }
 ```
