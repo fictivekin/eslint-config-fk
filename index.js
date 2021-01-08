@@ -1,5 +1,8 @@
 module.exports = {
-  "extends": ["google"],
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 7,
