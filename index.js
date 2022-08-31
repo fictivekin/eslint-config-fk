@@ -42,7 +42,7 @@ module.exports = {
         "ignorePattern": true
       }
     ],
-    "no-console": "error",
+    "no-console": "warn",
   },
   "globals": {
     "__DEV__": false,
