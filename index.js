@@ -41,7 +41,8 @@ module.exports = {
         "ignoreRegExpLiterals": true,
         "ignorePattern": true
       }
-    ]
+    ],
+    "no-console": "warn",
   },
   "globals": {
     "__DEV__": false,
