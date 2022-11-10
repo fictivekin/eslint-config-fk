@@ -9,26 +9,12 @@ module.exports = {
   },
   "ignorePatterns": ["**/*.bundle.js", "**/*.min.js", "node_modules/"],
   "rules": {
-    "require-jsdoc": [
-      "error",
-      {
-        "require": {
-          "FunctionDeclaration": true
-        }
-      }
-    ],
-    "generator-star-spacing": "error",
-    "no-alert": "error",
-    "indent": ["error", 2],
-    "camelcase": "warn",
-    "object-curly-spacing": ["error", "never"],
     "arrow-parens": ["error", "always"],
+    "camelcase": "warn",
     "comma-dangle": ["warn", "always-multiline"],
-    "quotes": ["error", "single"],
+    "generator-star-spacing": "error",
+    "indent": ["error", 2],
     "jsx-quotes": ["error", "prefer-double"],
-    "no-negated-condition": "warn",
-    "new-cap": "warn",
-    "no-invalid-this": "error",
     "max-len": [
       0,
       {
@@ -41,16 +27,33 @@ module.exports = {
         "ignorePattern": true
       }
     ],
+    "new-cap": "warn",
+    "no-alert": "error",
     "no-console": "warn",
+    "no-invalid-this": "error",
+    "no-negated-condition": "warn",
+    "no-unused-vars": [ "error", {
+      "args": "after-used"
+    } ],
+    "object-curly-spacing": ["error", "never"],
+    "quotes": ["error", "single"],
+    "require-jsdoc": [
+      "error",
+      {
+        "require": {
+          "FunctionDeclaration": true
+        }
+      }
+    ],
   },
   "globals": {
     "__DEV__": false,
     "alert": false,
-    "navigator": false,
-    "document": false,
     "describe": false,
+    "document": false,
     "it": false,
     "expect": false,
+    "navigator": false,
     "FormData": false,
     "window": false
   }
