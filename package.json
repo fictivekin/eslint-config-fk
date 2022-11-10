@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/fictivekin/eslint-config-fk#readme",
   "dependencies": {
-    "babel-eslint": "^10.1.0",
     "eslint-config-google": "^0.14.0"
   },
   "peerDependencies": {

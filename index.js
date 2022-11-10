@@ -3,7 +3,6 @@ module.exports = {
     "eslint:recommended",
     "google"
   ],
-  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 7,
     "sourceType": "module"
