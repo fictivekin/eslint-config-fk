@@ -45,6 +45,7 @@ module.exports = {
         }
       }
     ],
+    "simple-import-sort/imports": "error",
   },
   "globals": {
     "__DEV__": false,
@@ -56,5 +57,6 @@ module.exports = {
     "navigator": false,
     "FormData": false,
     "window": false
-  }
+  },
+  "plugins": ["simple-import-sort"],
 };
