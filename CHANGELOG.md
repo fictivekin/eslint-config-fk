@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - `simple-import-sort/imports`
+- `browser` environment
+- `no-unused-vars` args after-used
+- `yarn.lock`
+
+### Changed
+- Removed `babel-eslint`
+- Removed multiple globals
 
 ## v2.0.1
 ### Added

@@ -1,13 +1,21 @@
 module.exports = {
+  "env": {
+    "browser": true,
+  },
   "extends": [
     "eslint:recommended",
     "google"
   ],
+  "globals": {
+  },
+  "ignorePatterns": ["**/*.bundle.js", "**/*.min.js", "node_modules/"],
   "parserOptions": {
     "ecmaVersion": 7,
     "sourceType": "module"
   },
-  "ignorePatterns": ["**/*.bundle.js", "**/*.min.js", "node_modules/"],
+  "plugins": [
+    "simple-import-sort"
+  ],
   "rules": {
     "arrow-parens": ["error", "always"],
     "camelcase": "warn",
@@ -47,16 +55,4 @@ module.exports = {
     ],
     "simple-import-sort/imports": "error",
   },
-  "globals": {
-    "__DEV__": false,
-    "alert": false,
-    "describe": false,
-    "document": false,
-    "it": false,
-    "expect": false,
-    "navigator": false,
-    "FormData": false,
-    "window": false
-  },
-  "plugins": ["simple-import-sort"],
 };
