@@ -25,5 +25,8 @@
   },
   "peerDependencies": {
     "eslint": ">= 3"
+  },
+  "devDependencies": {
+    "eslint-plugin-simple-import-sort": "^8.0.0"
   }
 }
