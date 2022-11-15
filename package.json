@@ -21,9 +21,11 @@
   },
   "homepage": "https://github.com/fictivekin/eslint-config-fk#readme",
   "dependencies": {
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0"
   },
   "peerDependencies": {
     "eslint": ">= 3"
-  }
+  },
+  "devDependencies": {}
 }
