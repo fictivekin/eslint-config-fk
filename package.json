@@ -7,6 +7,9 @@
   "files": [
     "index.js"
   ],
+  "scripts": {
+    "lint": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/fictivekin/eslint-config-fk.git"
@@ -27,5 +30,13 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^8.27.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js",
+    "env": {
+      "node": true
+    }
+  }
 }
