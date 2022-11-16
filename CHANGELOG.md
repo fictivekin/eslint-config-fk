@@ -6,17 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-- `simple-import-sort/imports`
-- `browser` environment
-- `no-unused-vars` args after-used
+- `simple-import-sort/imports`. #6
+- `browser` environment. #9
+- `no-unused-vars` args after-used. #2
 - `no-cond-assign`. Previously disabled in `eslint-config-google`
-- `'quote-props': ['error', 'as-needed']`
+- `'quote-props': ['error', 'as-needed']`. #12
 - `yarn.lock`
 
 ### Changed
-- Removed `eslint-config-google`. Inlined rules
-- Removed `babel-eslint`
-- Removed multiple globals
+- Removed `eslint-config-google`. Inlined rules. #8
+- Removed `babel-eslint`. #3, #7
+- Removed multiple globals. #9
 
 ## v2.0.1
 ### Added
