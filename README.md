@@ -27,6 +27,33 @@ We need to be careful with changes to our lint config, as our linting rules dire
 
 ## Notes
 
+### Quiet warnings with --quiet
+
+Add the `--quiet` option to suppress warnings and show only errors.
+
+``` sh
+# yarn
+yarn lint:js --quiet
+
+# npm
+npm run lint:js -- --quiet
+```
+
+### JSDoc
+
+Writing JSDocs for functions can feel like a chore, but we've eased on some rules to make it easier. Parameter descriptions and return descriptions are not required. If your variable names are self-documenting, you can omit descriptions and document just the types.
+
+``` js
+/**
+ * @param {Object} post
+ * @param {String} attr
+ * @return {String}
+ */
+function getTitle(post, attr) {
+  return post[attr]; // contrived example, but you get the idea
+}
+```
+
 ### no-used-vars error in destructured Array
 
 You may encounter this error:

@@ -8,12 +8,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - `simple-import-sort/imports`. #6
 - `browser` environment. #9
+- `es2020` environment. Enables `optional?.chaining?.operator`.
 - `no-unused-vars` args after-used. #2
 - `no-cond-assign`. Previously disabled in `eslint-config-google`
 - `'quote-props': ['error', 'as-needed']`. #12
 - `yarn.lock`
 
 ### Changed
+- Upgraded required version of ESLint to 8.x.x. #11
 - Removed `eslint-config-google`. Inlined rules. #8
 - Removed `babel-eslint`. #3, #7
 - Removed multiple globals. #9

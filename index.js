@@ -3,6 +3,7 @@
 module.exports = {
   env: {
     browser: true,
+    es2020: true,
   },
   extends: [
     'eslint:recommended',
@@ -11,7 +12,6 @@ module.exports = {
   },
   ignorePatterns: ['**/*.bundle.js', '**/*.min.js', 'node_modules/'],
   parserOptions: {
-    ecmaVersion: 7,
     sourceType: 'module',
   },
   plugins: [
