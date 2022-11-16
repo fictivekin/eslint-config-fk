@@ -126,6 +126,7 @@ module.exports = {
     // 'no-unused-labels': 'error', // eslint:recommended
     'no-unused-vars': ['error', {
       args: 'after-used',
+      destructuredArrayIgnorePattern: '^_', // [_key, value] -> ignore key
     }],
     // 'no-useless-backreference': 'error', // eslint:recommended
     // 'no-useless-catch': 'error', // eslint:recommended
