@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `browser` environment
 - `no-unused-vars` args after-used
 - `no-cond-assign`. Previously disabled in `eslint-config-google`
+- `'quote-props': ['error', 'as-needed']`
 - `yarn.lock`
 
 ### Changed

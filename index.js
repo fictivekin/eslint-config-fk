@@ -1,23 +1,23 @@
 /* eslint sort-keys: 'error' */
 
 module.exports = {
-  'env': {
-    'browser': true,
+  env: {
+    browser: true,
   },
-  'extends': [
+  extends: [
     'eslint:recommended',
   ],
-  'globals': {
+  globals: {
   },
-  'ignorePatterns': ['**/*.bundle.js', '**/*.min.js', 'node_modules/'],
-  'parserOptions': {
-    'ecmaVersion': 7,
-    'sourceType': 'module',
+  ignorePatterns: ['**/*.bundle.js', '**/*.min.js', 'node_modules/'],
+  parserOptions: {
+    ecmaVersion: 7,
+    sourceType: 'module',
   },
-  'plugins': [
+  plugins: [
     'simple-import-sort',
   ],
-  'rules': {
+  rules: {
     // rules are sorted alphabetically
     // enabled eslint:recommended rules are listed for reference
     // recommended rules may have other options set. See docs for details:
@@ -27,20 +27,20 @@ module.exports = {
     'arrow-parens': ['error', 'always'],
     'block-spacing': ['error', 'never'],
     'brace-style': 'error',
-    'camelcase': 'warn',
+    camelcase: 'warn',
     'comma-dangle': ['warn', 'always-multiline'],
     'comma-spacing': 'error',
     'comma-style': 'error',
     'computed-property-spacing': 'error',
     // 'constructor-super': 'error', // eslint:recommended
-    'curly': ['error', 'multi-line'],
+    curly: ['error', 'multi-line'],
     'eol-last': 'error',
     // 'for-direction': 'error', // eslint:recommended
     'func-call-spacing': 'error',
     'generator-star-spacing': 'error',
     // 'getter-return': 'error', // eslint:recommended
     'guard-for-in': 'error',
-    'indent': ['error', 2],
+    indent: ['error', 2],
     'jsx-quotes': ['error', 'prefer-double'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
@@ -48,13 +48,13 @@ module.exports = {
     'max-len': [
       0,
       {
-        'ignoreComments': true,
-        'ignorePattern': true,
-        'ignoreRegExpLiterals': true,
-        'ignoreStrings': true,
-        'ignoreTemplateLiterals': true,
-        'ignoreTrailingComments': true,
-        'ignoreUrls': true,
+        ignoreComments: true,
+        ignorePattern: true,
+        ignoreRegExpLiterals: true,
+        ignoreStrings: true,
+        ignoreTemplateLiterals: true,
+        ignoreTrailingComments: true,
+        ignoreUrls: true,
       },
     ],
     'new-cap': 'warn',
@@ -125,7 +125,7 @@ module.exports = {
     // 'no-unsafe-optional-chaining': 'error', // eslint:recommended
     // 'no-unused-labels': 'error', // eslint:recommended
     'no-unused-vars': ['error', {
-      'args': 'after-used',
+      args: 'after-used',
     }],
     // 'no-useless-backreference': 'error', // eslint:recommended
     // 'no-useless-catch': 'error', // eslint:recommended
@@ -144,19 +144,19 @@ module.exports = {
     'prefer-promise-reject-errors': 'error',
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
-    'quote-props': ['error', 'consistent'],
-    'quotes': ['error', 'single'],
+    'quote-props': ['error', 'as-needed'],
+    quotes: ['error', 'single'],
     'require-jsdoc': [
       'error',
       {
-        'require': {
-          'FunctionDeclaration': true,
+        require: {
+          FunctionDeclaration: true,
         },
       },
     ],
     // 'require-yield': 'error', // eslint:recommended
     'rest-spread-spacing': 'error',
-    'semi': 'error',
+    semi: 'error',
     'semi-spacing': 'error',
     'simple-import-sort/imports': 'error',
     'space-before-blocks': 'error',
