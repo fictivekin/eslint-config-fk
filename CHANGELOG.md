@@ -9,9 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `simple-import-sort/imports`
 - `browser` environment
 - `no-unused-vars` args after-used
+- `no-cond-assign`. Previously disabled in `eslint-config-google`
 - `yarn.lock`
 
 ### Changed
+- Removed `eslint-config-google`. Inlined rules
 - Removed `babel-eslint`
 - Removed multiple globals
 
