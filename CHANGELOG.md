@@ -8,10 +8,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - `simple-import-sort/imports`. #6
 - `browser` environment. #9
+- `node` environment
 - `es2020` environment. Enables `optional?.chaining?.operator`.
 - `no-unused-vars` args after-used. #2
 - `no-cond-assign`. Previously disabled in `eslint-config-google`
 - `'quote-props': ['error', 'as-needed']`. #12
+- `indent` ignoredNodes TemplateLiteral
 - `yarn.lock`
 
 ### Changed

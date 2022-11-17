@@ -4,13 +4,18 @@ module.exports = {
   env: {
     browser: true,
     es2020: true,
+    node: true,
   },
   extends: [
     'eslint:recommended',
   ],
   globals: {
   },
-  ignorePatterns: ['**/*.bundle.js', '**/*.min.js', 'node_modules/'],
+  ignorePatterns: [
+    '**/*.bundle.js',
+    '**/*.min.js',
+    'node_modules/',
+  ],
   parserOptions: {
     sourceType: 'module',
   },
@@ -40,7 +45,11 @@ module.exports = {
     'generator-star-spacing': 'error',
     // 'getter-return': 'error', // eslint:recommended
     'guard-for-in': 'error',
-    indent: ['error', 2],
+    indent: ['error', 2, {
+      ignoredNodes: [
+        'TemplateLiteral',
+      ],
+    }],
     'jsx-quotes': ['error', 'prefer-double'],
     'key-spacing': 'error',
     'keyword-spacing': 'error',
